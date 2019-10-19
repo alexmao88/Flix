@@ -1,59 +1,49 @@
-# Project 1 - *Flix*
+# Flix
 
-**Flix** is a movies app using the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
+Flix is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-Time spent: **3** hours spent in total
+## Flix Part 2
 
-## User Stories
+### User Stories
 
-The following **required** user stories are complete:
+#### REQUIRED (10pts)
+- [ ] (5pts) User can tap a cell to see more details about a particular movie.
+- [ ] (5pts) User can tap a tab bar button to view a grid layout of Movie Posters using a CollectionView.
 
-- [x] User sees app icon in home screen and styled launch screen (+1pt)
-- [x] User can scroll through a list of movies currently playing in theaters from The Movie DB API (+5pt)
-- [x] User can "Pull to refresh" the movie list (+2pt)
-- [x] User sees a loading state while waiting for the movies to load (+2pt)
+#### BONUS
+- [ ] (2pts) User can tap a poster in the collection view to see a detail screen of that movie.
+- [ ] (2pts) In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer.
 
-The following **stretch** user stories are implemented:
+### App Walkthough GIF
+`TODO://` Add the URL to your animated app walkthough `gif` in the image tag below, `YOUR_GIF_URL_HERE`. Make sure the gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after after adding gif)
 
-- [ ] User sees an alert when there's a networking error (+1pt)
-- [ ] User can search for a movie (+3pt)
-- [ ] While poster is being fetched, user see's a placeholder image (+1pt)
-- [ ] User sees image transition for images coming from network, not when it is loaded from cache (+1pt)
-- [ ] Customize the selection effect of the cell (+1pt)
-- [ ] For the large poster, load the low resolution image first and then switch to the high resolution image when complete (+2pt)
+<img src="YOUR_GIF_URL_HERE" width=250><br>
 
-The following **additional** user stories are implemented:
+### Notes
+Describe any challenges encountered while building the app.
 
-- [ ] List anything else that you can get done to improve the app functionality! (+1-3pts)
+---
 
-Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
+## Flix Part 1
 
-1. Dealing with info from API
-2. Save information from app for user
+### User Stories
+`TODO://` In the **User Stories section below**, add an `x` in the `-[ ]` like this `- [x]` for any user story you complete. (🚫 Remove this paragraph after after checking off completed user stories)
 
-## Video Walkthrough
+#### REQUIRED (10pts)
+- [ x ] (2pts) User sees an app icon on the home screen and a styled launch screen.
+- [ x ] (5pts) User can view and scroll through a list of movies now playing in theaters.
+- [ x ] (3pts) User can view the movie poster image for each movie.
 
-Here's a walkthrough of implemented user stories:
+#### BONUS
+- [ ] (2pt) User can view the app on various device sizes and orientations.
+- [ ] (1pt) Run your app on a real device.
 
-https://i.imgur.com/ch0cARw.gifv
+### App Walkthough GIF
+`TODO://` Add the URL to your animated app walkthough `gif` in the image tag below, `YOUR_GIF_URL_HERE`. Make sure the gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after after adding gif)
 
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+<img src="https://imgur.com/xTqaNPy" width=250><br>
 
-## Notes
-Not too challenging. Dealt with errors caused by not specifying things in Attributes and Identity Inspector
+### Notes
+Describe any challenges encountered while building the app.
 
-## License
-
-Copyright [2018] [name of copyright owner]
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+Dealt with errors caused by not specifying things in Attributes and Identity Inspector
